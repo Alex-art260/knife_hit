@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &912341687560692705
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 912341687560692639}
+  - component: {fileID: 912341687560692704}
+  - component: {fileID: 912341687560692637}
+  - component: {fileID: 912341687560692636}
+  - component: {fileID: 912341687560692638}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &912341687560692639
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912341687560692705}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 367.5238, y: 120.59452, z: -220.62048}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &912341687560692704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912341687560692705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb5f8f2090cc4744da3bb108364638ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  knifes:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &912341687560692637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912341687560692705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebe82b076f6a217469192b7e0360772f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _highScoreLevel: {fileID: 6775569296867042201, guid: 00de2284979cabd4e898dfeb217cb2a4,
+    type: 3}
+--- !u!114 &912341687560692636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912341687560692705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24dbd750c01c03a458f90e5bf62a4fc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _knife: {fileID: 8192020705308743812, guid: 47a4ca9057ef0be48b8b1113ff03b9ab, type: 3}
+  _knife1: {fileID: 8192020705308743812, guid: d4b1aaa5627e16e4eb387cc97514900e, type: 3}
+  _knife2: {fileID: 5214535847602392282, guid: a905a4aa66160394a8e3544df27e8384, type: 3}
+  _parent: {fileID: 0}
+  spawnPoints:
+  - position: {x: -1.4, y: 0.93, z: 0}
+    angle: {x: 0, y: 0, z: 5.131268}
+  - position: {x: 1.29, y: 2.18, z: 0}
+    angle: {x: 0, y: 0, z: 2.111848}
+  spawnPoints2:
+  - position2: {x: -1.12, y: 2.36, z: 0}
+    angle2: {x: 0, y: 0, z: -2.338741}
+  - position2: {x: 1.26, y: 0.78, z: 0}
+    angle2: {x: 0, y: 0, z: 0.9075712}
+  spawnPoints3:
+  - position3: {x: 0.86, y: 0.4, z: 0}
+    angle3: {x: 0, y: 0, z: 0.5235988}
+  - position3: {x: -0.96, y: 0.47, z: 0}
+    angle3: {x: 0, y: 0, z: -0.7853982}
+  showKnife: 0
+--- !u!114 &912341687560692638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912341687560692705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c0a6a50d352a0948a99e6df36c979aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _appleShowMain: {fileID: 11400000, guid: b755844efd17d1e43984b7646bfa8d08, type: 2}
+  _apple: {fileID: 3102590464125480780, guid: 3be59160bc5fbab4f804f1e129890ab1, type: 3}
+  _apple1: {fileID: 3102590464125480780, guid: bbac0cb9264f831499308b63bf812ded, type: 3}
+  _parent: {fileID: 0}
